@@ -1,26 +1,19 @@
-body{
-    background-image: url(../imagens/fundo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-h1{
-    color: rgba(0,0,255,0.5);
-    background-color: black;
-}
+/* Padrão */
 
 .titulos{
-    color: #FFFF00;
+    color: #FF0000;
+    background-color: black;
+    text-align: center;
 }
 
-#Principal{
-    color: #FF0000;
-}
+/* Background + cores + Class + ID */
 
 #corpo{
-    color: rgb(0,255,0);
+    color: #00FF00;
     background-image: url(../imagens/fundo-texto.jpg);
 }
+
+/* Unidades Fixas */
 
 #cm{
     background-color: blue;
@@ -56,4 +49,46 @@ h1{
     background-color: red;
     width: 1pc;
     height: 1pc;
+}
+
+/* Unidades Relativas */
+
+#em{
+    font-size: 25px;    
+}
+#em2{
+    font-size: 2em;
+}
+
+#rem{
+    font-size: 2rem;
+}
+
+#vh{
+    background-color: red;
+    height: 5vh;
+}
+
+#vw{
+    background-color: red;
+    width: 50vw;
+}
+
+#vmin{
+    background-color: red;
+    width: 50vmin;
+}
+
+#vmax{
+    background-color: red;
+    width: 50vw;
+}
+
+#pai{
+    background-color: red;
+    width: 50%;
+}
+#porcentagem{
+    background-color: blue;
+    width: 50%;
 }
