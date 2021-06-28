@@ -9,6 +9,10 @@ h1{
     background-color: black;
 }
 
+.titulos{
+    color: #FFFF00;
+}
+
 #Principal{
     color: #FF0000;
 }
@@ -16,4 +20,40 @@ h1{
 #corpo{
     color: rgb(0,255,0);
     background-image: url(../imagens/fundo-texto.jpg);
+}
+
+#cm{
+    background-color: blue;
+    width: 1cm;
+    height: 1cm;
+}
+
+#mm{
+    background-color: red;
+    width: 1mm;
+    height: 1mm;
+}
+
+#in{
+    background-color: blue;
+    width: 1in;
+    height: 1in;
+}
+
+#px{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+}
+
+#pt{
+    background-color: blue;
+    width: 10pt;
+    height: 10pt;
+}
+
+#pc{
+    background-color: red;
+    width: 1pc;
+    height: 1pc;
 }
