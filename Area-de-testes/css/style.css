@@ -104,3 +104,77 @@
     background-color: blue;
     margin: 5px;
 }
+
+/* Border */
+
+.dotted{
+    border-style: dotted;
+    border-color: brown;
+    border-width: 1px;
+}
+
+.doubble{
+    border-style: double;
+    border-color: brown;
+    border-width: 1px;
+}
+
+.groove{
+    border-style: groove;
+    border-color: brown;
+    border-width: 1px;
+}
+
+.hidden{
+    border-style: hidden;
+    border-color: brown;
+    border-width: 1px;
+}
+
+.inherit{
+    border-style: inherit;
+    border-color: brown;
+    border-width: 1px;
+}
+
+.initial{
+    border-style: initial;
+    border-color: brown;
+    border-width: 1px;
+}
+
+.inset{
+    border-style: inset;
+    border-color: brown;
+    border-width: 1px;
+}
+
+.none{
+    border-style: none;
+    border-color: brown;
+    border-width: 1px;
+}
+
+.outset{
+    border-style: outset;
+    border-color: brown;
+    border-width: 1px;
+}
+
+.ridge{
+    border-style: ridge;
+    border-color: brown;
+    border-width: 1px;
+}
+
+.solid{
+    border-style: solid;
+    border-color: brown;
+    border-width: 1px;
+}
+
+.unset{
+    border-style: unset;
+    border-color: brown;
+    border-width: 1px;
+}
