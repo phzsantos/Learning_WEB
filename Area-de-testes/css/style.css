@@ -178,3 +178,20 @@
     border-color: brown;
     border-width: 1px;
 }
+
+/* Box model */
+
+#container{
+    background-color: blue;
+    padding: 5px;
+    margin: 5px;
+    border: yellow solid 5px;
+}
+
+#inside{
+    background-color: red;
+    outline: yellow solid 5px;
+    padding: 5px;
+    margin: 5px;
+    border: green solid 5px;
+}
