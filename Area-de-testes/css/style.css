@@ -195,3 +195,21 @@
     margin: 5px;
     border: green solid 5px;
 }
+
+/* Ajustes de texto */
+
+#texto{
+    text-align: justify;
+    color: blue;
+    text-decoration: none;
+    text-indent: 15px;
+    text-shadow: 2px -2px 2px #ddd;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    line-height: 2;
+    word-spacing: 10px;
+}
+
+#link-teste{
+    text-decoration: none;
+}
