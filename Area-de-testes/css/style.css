@@ -4,6 +4,7 @@
     color: #FF0000;
     background-color: black;
     text-align: center;
+    font-family: arial;
 }
 
 /* Background + cores + Class + ID */
@@ -212,4 +213,14 @@
 
 #link-teste{
     text-decoration: none;
+}
+
+/* Fontes */
+
+#fontes{
+    font-family: arial,"Comic sans MS", sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-variant: small-caps;
 }
