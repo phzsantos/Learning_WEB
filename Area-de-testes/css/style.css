@@ -224,3 +224,41 @@
     font-weight: 700;
     font-variant: small-caps;
 }
+
+/* Links */
+
+#link1{
+    background-color: white;
+    color: red;
+    text-decoration: none;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    border: red solid 2px;
+}
+
+#link1:hover{
+    background-color: red;
+    color: white;
+}
+
+#link1:active{
+    background-color: red;
+    color: black;
+}
+
+#link2{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#link2:visited{
+    background-color: #ddd;
+    color: black;
+}
