@@ -262,3 +262,28 @@
     background-color: #ddd;
     color: black;
 }
+
+/* Lista */
+
+#lista_desordenada{
+    list-style-image: url("../imagens/check.png");
+    list-style-position: inside;
+    margin: 0px;
+    padding: 10px;
+}
+
+#lista_ordenada{
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+    margin: 0px;
+    padding: 10px;
+    background-color: blue;
+}
+
+li{
+    border: solid 1px black;
+    margin: 5px;
+    padding: 5px;
+    background-color: yellow;
+    border-radius: 8px;
+}
