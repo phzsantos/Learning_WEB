@@ -225,6 +225,18 @@
     font-variant: small-caps;
 }
 
+/* Fonte customizada */
+
+@font-face {
+    font-family: FonteLOTR;
+    src: url(../Fonts/LOTR.TTF);
+}
+
+#LOTR{
+    font-family: 'FonteLOTR';
+}
+
+
 /* Links */
 
 #link1{
