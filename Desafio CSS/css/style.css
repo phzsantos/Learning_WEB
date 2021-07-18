@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+
+#Cartão{
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 1px 20px;
+    box-sizing: border-box;
+    background-image: url("../Assets/backgorund.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#instagram{
+    list-style-image: url("../Assets/Insta.png");  
+}
+
+#twitter{
+    list-style-image: url("../Assets/Twitter.png");
+}
+
+#youtube{
+    list-style-image: url("../Assets/Youtube.png");
+}
