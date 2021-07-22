@@ -326,6 +326,7 @@ li{
 /* Postion static e relative */
 
 #Quadro{
+    position: relative;
     width: 500px;
     height: 400px;
     border: 1px solid black;
@@ -338,7 +339,7 @@ li{
 }
 
 #QuadradoVerde{
-    position: relative;
+    position: absolute;
     left: 400px;
     width: 100px;
     height: 100px;
