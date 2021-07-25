@@ -292,7 +292,7 @@
     background-color: blue;
 }
 
-li{
+.list_item{
     border: solid 1px black;
     margin: 5px;
     padding: 5px;
@@ -349,4 +349,32 @@ li{
     width: 100px;
     height: 100px;
     background-color: blue;
+}
+
+/* Float */
+
+#FedoraConteudo{
+    border: 1px solid black;
+    overflow: auto;
+}
+
+#FedoraLogo{
+    width: 90px;
+    float: left;
+    margin: 10px;
+}
+
+#FedoraLegal{
+    clear: none;
+}
+
+#MenuFloat{
+    list-style: none;
+}
+
+.List_Item_Float{
+    float: left;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid black;
 }
