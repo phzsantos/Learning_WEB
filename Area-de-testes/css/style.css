@@ -323,7 +323,7 @@ li{
     text-align: center;
 }
 
-/* Postion static e relative */
+/* Postion Position static, relative, absolute, relative */
 
 #Quadro{
     width: 500px;
@@ -338,14 +338,14 @@ li{
 }
 
 #QuadradoVerde{
+    position: sticky;
+    top: 0px;
     width: 100px;
     height: 100px;
     background-color: green;
 }
 
 #QuadradoAzul{
-    position: fixed;
-    bottom: 0px;
     width: 100px;
     height: 100px;
     background-color: blue;
