@@ -442,3 +442,22 @@
     text-align: center;
     line-height: 56px;
 }
+
+/* media-queries */
+
+#media-queries{
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    background-color: blue;
+}
+
+@media screen and (max-width: 500px){
+
+    #media-queries{
+        width: 80%;
+        height: 150px;
+        margin: auto;
+        background-color: red;
+    }        
+}
